@@ -5,7 +5,7 @@
 ## Usage
 
 ```bs
-npm install --save-dev eslint-config-fhelwanger
+npm install --save-dev eslint eslint-config-fhelwanger babel-eslint
 ```
 
 Then, extend `fhelwanger` in your `.eslintrc`:
