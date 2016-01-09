@@ -79,7 +79,6 @@ module.exports = {
     "indent": [ 2, 2, { "SwitchCase": 1 } ],
     "jsx-quotes": [ 2, "prefer-double" ],
     "key-spacing": [ 2, { "beforeColon": false, "afterColon": true } ],
-    "linebreak-style": [ 2, "unix" ],
     "new-cap": 2,
     "new-parens": 2,
     "no-lonely-if": 2,
