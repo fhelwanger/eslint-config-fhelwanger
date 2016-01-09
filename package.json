@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-fhelwanger",
+  "version": "1.0.0",
+  "description": "My personal eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhelwanger/eslint-config-fhelwanger.git"
+  },
+  "author": "fhelwanger",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fhelwanger/eslint-config-fhelwanger/issues"
+  },
+  "homepage": "https://github.com/fhelwanger/eslint-config-fhelwanger#readme"
+}
