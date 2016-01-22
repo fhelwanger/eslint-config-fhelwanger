@@ -1,24 +1,24 @@
 module.exports = {
   "extends": "eslint:recommended",
-  
+
   "ecmaFeatures": {
     "jsx": true,
     "modules": true
   },
-  
+
   "env": {
     "browser": true,
     "node": true,
     "es6": true
   },
-  
+
   "parser": "babel-eslint",
-  
+
   "rules": {
     /* Possible Errors */
     "no-unexpected-multiline": 2,
     "valid-jsdoc": 2,
-    
+
     /* Best Practices */
     "consistent-return": 2,
     "curly": 2,
@@ -36,15 +36,6 @@ module.exports = {
     "no-implied-eval": 2,
     "no-invalid-this": 2,
     "no-iterator": 2,
-    
-    /* Variables */
-    "no-catch-shadow": 2,
-    "no-label-var": 2,
-    "no-shadow-restricted-names": 2,
-    "no-shadow": 2,
-    "no-undef-init": 2,
-    "no-undef": 2,
-    "no-unused-vars": 2,
     "no-lone-blocks": 2,
     "no-loop-func": 2,
     "no-multi-spaces": 2,
@@ -65,7 +56,14 @@ module.exports = {
     "radix": 2,
     "wrap-iife": 2,
     "yoda": [ 2, "never" ],
-    
+
+    /* Variables */
+    "no-label-var": 2,
+    "no-shadow-restricted-names": 2,
+    "no-undef-init": 2,
+    "no-undef": 2,
+    "no-unused-vars": [ 2, { "args": "none" } ],
+
     /* Stylistic Issue */
     "array-bracket-spacing": [ 2, "always" ],
     "block-spacing": [ 2, "always" ],
@@ -88,7 +86,6 @@ module.exports = {
     "no-trailing-spaces": 2,
     "no-unneeded-ternary": 2,
     "object-curly-spacing": [ 2, "always" ],
-    "one-var": [ 2, "never" ],
     "quotes": [ 2, "single", "avoid-escape" ],
     "semi-spacing": 2,
     "semi": 2,
@@ -101,14 +98,13 @@ module.exports = {
     "space-return-throw-case": 2,
     "space-unary-ops": 2,
     "spaced-comment": 2,
-    
+
     /* ES6 */
-    "arrow-body-style": [ 2, "as-needed" ],
     "arrow-parens": [ 2, "as-needed" ],
     "arrow-spacing": 2,
     "constructor-super": 2,
     "generator-star-spacing": [ 2, {
-      "before": false, 
+      "before": false,
       "after": true
     }],
     "no-arrow-condition": 2,
@@ -118,9 +114,7 @@ module.exports = {
     "no-this-before-super": 2,
     "no-var": 2,
     "object-shorthand": 2,
-    "prefer-arrow-callback": 2,
     "prefer-const": 2,
-    "prefer-reflect": 2,
     "prefer-spread": 2,
     "prefer-template": 2,
     "require-yield": 2
