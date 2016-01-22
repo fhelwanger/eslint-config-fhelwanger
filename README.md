@@ -1,11 +1,12 @@
 # eslint-config-fhelwanger
 
-[eslint-config](http://eslint.org/docs/developer-guide/shareable-configs) for my projects and for anyone else who would like to use it :wink:
+[eslint-config](http://eslint.org/docs/developer-guide/shareable-configs) for
+my projects and for anyone else who would like to use it :wink:
 
 ## Usage
 
 ```bs
-npm install --save-dev eslint eslint-config-fhelwanger babel-eslint
+npm install --save-dev eslint eslint-config-fhelwanger eslint-plugin-react babel-eslint
 ```
 
 Then, extend `fhelwanger` in your `.eslintrc`:
@@ -15,6 +16,10 @@ Then, extend `fhelwanger` in your `.eslintrc`:
     "extends": "fhelwanger"
 }
 ```
+
+It'll export all the ES6 + React rules.
+If you want just ES6 or ES5, you can extend "fhelwanger/es6" or "fhelwanger/base".
+In these cases, there is no need to install eslint-plugin-react.
 
 ## Thanks
 
