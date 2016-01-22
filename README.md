@@ -18,8 +18,8 @@ Then, extend `fhelwanger` in your `.eslintrc`:
 ```
 
 It'll export all the ES6 + React rules.
-If you want just ES6 or ES5, you can extend "fhelwanger/es6" or "fhelwanger/base".
-In these cases, there is no need to install eslint-plugin-react.
+If you want just ES6 or ES5, you can extend `"fhelwanger/es6"` or `"fhelwanger/base"`.
+In these cases, there is no need to install `eslint-plugin-react`.
 
 ## Thanks
 
