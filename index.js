@@ -21,8 +21,6 @@ module.exports = {
     "react/jsx-indent-props": [ 2, 2 ],
     "react/jsx-indent": [ 2, 2 ],
     "react/jsx-key": 2,
-    "react/jsx-max-props-per-line": [ 2, { "maximum": 1 } ],
-    "react/jsx-no-bind": 2,
     "react/jsx-no-duplicate-props": [ 2, { "ignoreCase": false } ],
     "react/jsx-no-undef": 2,
     "react/jsx-pascal-case": 2,
