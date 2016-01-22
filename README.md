@@ -18,8 +18,9 @@ Then, extend `fhelwanger` in your `.eslintrc`:
 
 ## Thanks
 
-* [eslint](http://eslint.org/) for its amazing linting
-* [eslint-config-rackt](https://github.com/rackt/eslint-config-rackt) for providing me a starting point on how to create my own 
+* [eslint](http://eslint.org/) for its amazing linting.
+* [eslint-config-rackt](https://github.com/rackt/eslint-config-rackt) for providing me a starting point on how to create my own.
+* [Airbnb JavaScript style guide](https://github.com/airbnb/javascript) it's awesome.
 
 ## License
 
