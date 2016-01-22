@@ -20,7 +20,7 @@ Then, extend `fhelwanger` in your `.eslintrc`:
 
 * [eslint](http://eslint.org/) for its amazing linting.
 * [eslint-config-rackt](https://github.com/rackt/eslint-config-rackt) for providing me a starting point on how to create my own.
-* [Airbnb JavaScript style guide](https://github.com/airbnb/javascript) it's awesome.
+* [Airbnb JavaScript style guide](https://github.com/airbnb/javascript) - it's awesome.
 
 ## License
 
