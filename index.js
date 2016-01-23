@@ -37,16 +37,6 @@ module.exports = {
     "react/prop-types": [ 2, { "ignore": [], customValidators: [] } ],
     "react/react-in-jsx-scope": 2,
     "react/self-closing-comp": 2,
-    "react/sort-comp": [2, {
-      "order": [
-        "lifecycle",
-        "/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/",
-        "/^on.+$/",
-        "render",
-        "/^render.+$/",
-        "everything-else"
-      ]
-    }],
     "react/wrap-multilines": [ 2, {
       "declaration": true,
       "assignment": true,
