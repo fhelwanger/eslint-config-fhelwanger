@@ -11,6 +11,7 @@ module.exports = {
   "rules": {
     /* Possible Errors */
     "no-console": 0,
+    "no-constant-condition": 0,
     "no-unexpected-multiline": 2,
     "valid-jsdoc": 2,
 
