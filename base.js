@@ -74,7 +74,6 @@ module.exports = {
     "key-spacing": [ 2, { "beforeColon": false, "afterColon": true } ],
     "new-cap": 2,
     "new-parens": 2,
-    "no-lonely-if": 2,
     "no-multiple-empty-lines": 2,
     "no-new-object": 2,
     "no-spaced-func": 2,
