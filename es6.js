@@ -27,7 +27,6 @@ module.exports = {
     "object-shorthand": 2,
     "prefer-const": 2,
     "prefer-spread": 2,
-    "prefer-template": 2,
     "require-yield": 2
   }
 };

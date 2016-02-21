@@ -18,7 +18,6 @@ module.exports = {
     /* Best Practices */
     "consistent-return": 2,
     "curly": 2,
-    "dot-location": [ 2, "object" ],
     "dot-notation": 2,
     "eqeqeq": 2,
     "no-caller": 2,
