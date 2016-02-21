@@ -5,12 +5,15 @@ module.exports = {
     "react"
   ],
 
-  "ecmaFeatures": {
-    "jsx": true
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
 
   "rules": {
     "jsx-quotes": [ 2, "prefer-double" ],
+    "react/display-name": 2,
     "react/jsx-boolean-value": [ 2, "never" ],
     "react/jsx-closing-bracket-location": [ 2, "line-aligned" ],
     "react/jsx-curly-spacing": [ 2, "never", { "allowMultiline": true } ],

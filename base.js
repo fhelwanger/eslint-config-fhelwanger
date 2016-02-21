@@ -12,7 +12,6 @@ module.exports = {
     /* Possible Errors */
     "no-console": 0,
     "no-constant-condition": 0,
-    "no-unexpected-multiline": 2,
     "valid-jsdoc": 2,
 
     /* Best Practices */
@@ -21,10 +20,7 @@ module.exports = {
     "dot-notation": 2,
     "eqeqeq": 2,
     "no-caller": 2,
-    "no-case-declarations": 2,
     "no-div-regex": 2,
-    "no-empty-label": 2,
-    "no-empty-pattern": 2,
     "no-eval": 2,
     "no-floating-decimal": 2,
     "no-implicit-coercion": 2,
@@ -82,13 +78,11 @@ module.exports = {
     "quotes": [ 2, "single", "avoid-escape" ],
     "semi-spacing": 2,
     "semi": 2,
-    "space-after-keywords": 2,
+    "keyword-spacing": 2,
     "space-before-blocks": 2,
     "space-before-function-paren": [ 2, { "anonymous": "always", "named": "never" } ],
-    "space-before-keywords": 2,
     "space-in-parens": [ 2, "never" ],
     "space-infix-ops": 2,
-    "space-return-throw-case": 2,
     "space-unary-ops": 2,
     "spaced-comment": 2
   }

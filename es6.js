@@ -1,8 +1,9 @@
 module.exports = {
   "extends": "fhelwanger/base",
 
-  "ecmaFeatures": {
-    "modules": true
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "modules"
   },
 
   "env": {
@@ -19,10 +20,6 @@ module.exports = {
       "before": false,
       "after": true
     }],
-    "no-class-assign": 2,
-    "no-const-assign": 2,
-    "no-dupe-class-members": 2,
-    "no-this-before-super": 2,
     "no-var": 2,
     "object-shorthand": 2,
     "prefer-const": 2,

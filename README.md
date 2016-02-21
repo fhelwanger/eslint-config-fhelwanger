@@ -5,6 +5,8 @@ my projects and for anyone else who would like to use it :wink:
 
 ## Usage
 
+It uses eslint 2.x.
+
 ```bs
 npm install --save-dev eslint eslint-config-fhelwanger eslint-plugin-react babel-eslint
 ```
